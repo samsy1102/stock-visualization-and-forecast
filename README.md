@@ -1,14 +1,16 @@
-DB = MongoDB
+# DB = MongoDB
 
 # for stocks.py
-pip install streamlit
-pip install yfinance
-pip install statsmodels
-pip install pandas
-pip install numpy
-pip install matplotlib
+pip install:
+streamlit
+yfinance
+statsmodels
+pandas
+numpy
+matplotlib
 
 # for login.py
-pip install hashlib
-pip install re
-pip install pymongo
+pip install:
+hashlib
+re
+pymongo
