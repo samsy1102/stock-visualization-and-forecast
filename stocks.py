@@ -31,17 +31,6 @@ logout_button_html = """
 """
 
 
-# Button for forex page
-Forex_button = """
-    <div style="position: absolute; top: 10px; left: 10px;">
-        <form action='http://localhost:8503'>
-            <input type='submit' value='Forex'>
-        </form>
-    </div>
-"""
-
-st.markdown(Forex_button, unsafe_allow_html=True)
-
 st.markdown(logout_button_html, unsafe_allow_html=True)
 
 
